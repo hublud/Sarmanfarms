@@ -2,7 +2,7 @@
     package="com.example.panaefi">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="panaefi"
+        android:label="Sarmanfarms"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

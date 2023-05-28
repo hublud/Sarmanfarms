@@ -17,14 +17,14 @@ class Menu extends StatelessWidget {
         switch (value) {
           case _MenuOptions.navigationDelegate:
             await controller
-                .loadRequest(Uri.parse('https://panedu.com.ng/app'));
+                .loadRequest(Uri.parse('https://sarmanfarms.com/shop'));
             break;
         }
       },
       itemBuilder: (context) => [
         const PopupMenuItem<_MenuOptions>(
           value: _MenuOptions.navigationDelegate,
-          child: Text('Login'),
+          child: Text('Shop'),
         ),
       ],
     );

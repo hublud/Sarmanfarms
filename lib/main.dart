@@ -32,7 +32,7 @@ class _WebViewAppState extends State<WebViewApp> {
     super.initState();
     controller = WebViewController()
       ..loadRequest(
-        Uri.parse('https://panedu.com.ng/app'),
+        Uri.parse('https://sarmanfarms.com'),
       );
   }
 
@@ -41,7 +41,7 @@ class _WebViewAppState extends State<WebViewApp> {
     return Scaffold(
       appBar: AppBar(
         title: Image.network(
-          'http://panedu.neoaltus.com/wp-content/uploads/2023/01/download-removebg-preview.png',
+          'https://www.sarmanfarms.com/wp-content/uploads/2023/04/Sarman-Farms-Favicon-2-300x300.png',
           height: 50,
           width: 50,
         ),
